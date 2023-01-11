@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
     op = argv[2][0];
     c = Calculate(a,b,op);
 
-    printf("Result is: %5.2f",c);
+    printf("Result is : %5.2f",c);
 }
 
     float Calculate(float a, float b, char op)
